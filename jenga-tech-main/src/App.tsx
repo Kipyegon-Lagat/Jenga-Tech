@@ -13,12 +13,7 @@ import Trends from "./pages/Trends";
 import Charts from "./pages/Charts";
 import Settings from "./pages/Settings";
 import NotFound from "./pages/NotFound";
-import Users from "./pages/Users";
-import Trends from "./pages/Trends";
-import Charts from "./pages/Charts";
-import Settings from "./pages/Settings";
-import NotFound from "./pages/NotFound";
-const queryClient = new QueryClient();
+
 
 const App = () => (
   <QueryClientProvider client={queryClient}>
