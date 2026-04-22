@@ -8,11 +8,7 @@ import Index from "./pages/Index";
 import Analytics from "./pages/Analytics";
 import Revenue from "./pages/Revenue";
 import Reports from "./pages/Reports";
-import Users from "./pages/Users";
-import Trends from "./pages/Trends";
-import Charts from "./pages/Charts";
-import Settings from "./pages/Settings";
-import NotFound from "./pages/NotFound";
+
 
 const queryClient = new QueryClient();
 
