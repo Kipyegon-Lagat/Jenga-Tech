@@ -12,7 +12,13 @@ const Charts = () => {
     { category: 'Insurance', value: 1200, growth: 12 },
   ];
 
-  
+  const pieData = [
+    { name: 'Nairobi', value: 35, color: '#3b82f6' },
+    { name: 'Mombasa', value: 20, color: '#10b981' },
+    { name: 'Kisumu', value: 15, color: '#f59e0b' },
+    { name: 'Nakuru', value: 12, color: '#ef4444' },
+    { name: 'Other Cities', value: 18, color: '#8b5cf6' },
+  ];
 
   const lineData = [
     { month: 'Jan', desktop: 3000, mobile: 4500 },
