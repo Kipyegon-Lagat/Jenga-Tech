@@ -20,14 +20,7 @@ const Charts = () => {
     { name: 'Other Cities', value: 18, color: '#8b5cf6' },
   ];
 
-  const lineData = [
-    { month: 'Jan', desktop: 3000, mobile: 4500 },
-    { month: 'Feb', desktop: 3200, mobile: 4800 },
-    { month: 'Mar', desktop: 2800, mobile: 5200 },
-    { month: 'Apr', desktop: 3500, mobile: 5500 },
-    { month: 'May', desktop: 3200, mobile: 5800 },
-    { month: 'Jun', desktop: 3800, mobile: 6200 },
-  ];
+  
 
   return (
     <div className="min-h-screen bg-gradient-to-br from-slate-50 to-blue-50 p-6">
