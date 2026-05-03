@@ -15,13 +15,7 @@ import Settings from "./pages/Settings";
 import NotFound from "./pages/NotFound";
 
 
-const App = () => (
-  <QueryClientProvider client={queryClient}>
-    <TooltipProvider>
-      <Toaster />
-      <Sonner />
-      <BrowserRouter>
-        <Routes>
+
           <Route path="/" element={<Index />} />
           <Route path="/analytics" element={<Analytics />} />
           <Route path="/revenue" element={<Revenue />} />
